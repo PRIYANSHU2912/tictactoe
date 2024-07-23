@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    max-width: 100%;
+    font-family: "Playwrite BE VLG", cursive;
+    color: red;
+    font-weight: 600;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(249, 232, 51, 1) 0%, rgba(250, 196, 59, 1) 100.2%);
+}
+
+.status {
+    border: 3px solid white;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.updatestatus {
+    display: none;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 3px solid white;
+}
+
+.active {
+    display: block;
+}
+
+.tablegrid {
+    border-radius: 1rem;
+    height: 15rem;
+    width: 15rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box0,
+.box1,
+.box3,
+.box4,
+.box6,
+.box7 {
+    border-right: 3px solid white;
+}
+
+.box0,
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    border-bottom: 3px solid white;
+}
+.color{
+    background-color: aqua;
+}
